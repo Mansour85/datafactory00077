@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "datafactory77707"
+		},
+		"CSV_data_container_accountKey": {
+			"value": ""
+		},
+		"PoolActivityLog_poolDB_password": {
+			"value": ""
+		},
+		"LS_staging_connectionString": {
+			"value": ""
+		},
+		"CSV_data_container_properties_typeProperties_url": {
+			"value": "https://datalake77707.dfs.core.windows.net/"
+		},
+		"PoolActivityLog_poolDB_properties_typeProperties_server": {
+			"value": "dataworkspace77707.sql.azuresynapse.net"
+		},
+		"PoolActivityLog_poolDB_properties_typeProperties_database": {
+			"value": "datapool"
+		},
+		"PoolActivityLog_poolDB_properties_typeProperties_userName": {
+			"value": "sqladminuser"
+		}
+	}
+}
